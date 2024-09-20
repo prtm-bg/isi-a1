@@ -98,6 +98,33 @@ body {
     color: #EEEEEE;
   }
 
+  .cardsection {
+    padding: 1em 5em 5em 5em;
+    margin-block: 0em;
+    margin-inline: 15vw;
+    border-radius: 50px;
+    background-color: #ffffff1f;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    padding: 1em;
+    margin-inline: 1em;
+    margin-block: 1em;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    background-color: #31363f00;
+    text-align: center;
+    color: #EEEEEE;
+  }
+
   h2 {
     text-align: center;
     color: #EEEEEE;
@@ -106,5 +133,12 @@ body {
   }
 
   footer {
+    padding-block: 1em;
+    margin-inline: -2em;
+    margin-top: 5em;
+    margin-bottom: -1em;
+    background-color: #15191f;
     text-align: center;
+    color: #EEEEEE;
+    text-transform: capitalize;
   }
