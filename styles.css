@@ -1,0 +1,110 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff1f;
+    padding: 1em;
+    margin-block: 1em;
+    margin-inline: 20vw;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-item {
+    padding: 1ex 2ex;
+    margin-inline: 0.5ex;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    background-color: #31363f00;
+    text-align: center;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.nav-item-active {
+    padding: 1ex 2ex;
+    margin-inline: 0.5ex;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    background-color: #76ABAE;
+    text-align: center;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.nav-item:hover {
+    background-color: #76ABAE;
+    color: #EEEEEE;
+    transition-duration: 0.5s;
+}
+
+.img {
+    /* Add styles to the image */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7));
+    position: relative;
+    top: -18em;
+  }
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .featuresection {
+    padding: 1em 5em 5em 5em;
+    margin-block: 0em;
+    margin-inline: 15vw;
+    border-radius: 50px;
+    background-color: #ffffff1f;
+    position: relative;
+    top: -10em;
+    z-index: 1;
+  }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature {
+    padding: 1em;
+    margin-inline: 1em;
+    margin-block: 1em;
+    max-width: 20em;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    background-color: #31363f00;
+    text-align: center;
+    color: #EEEEEE;
+  }
+
+  h2 {
+    text-align: center;
+    color: #EEEEEE;
+    padding: 1em;
+    margin: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
