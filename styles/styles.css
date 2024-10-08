@@ -5,8 +5,8 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #222831;
-    color: #EEEEEE;
+    background-color: #aaaaaa;
+    color: #828282;
 }
 
 .navbar {
@@ -54,8 +54,8 @@ body {
     /* Add styles to the image */
     width: 100%;
     height: 100%;
+    filter: brightness(40%);
     object-fit: cover;
-    mask-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7));
     position: relative;
     top: -18em;
   }
@@ -72,9 +72,10 @@ body {
   .featuresection {
     padding: 1em 5em 5em 5em;
     margin-block: 0em;
-    margin-inline: 15vw;
+    margin-inline: 5vw;
     border-radius: 50px;
-    background-color: #ffffff1f;
+    background-color: #eeeeee;
+    box-shadow: 0 10px 20px #00000073;
     position: relative;
     top: -10em;
     z-index: 1;
@@ -90,12 +91,12 @@ body {
     padding: 1em;
     margin-inline: 1em;
     margin-block: 1em;
-    max-width: 20em;
-    border: 1px solid #EEEEEE;
+    max-width: 18em;
+    border: 1px solid #555555;
     border-radius: 10px;
     background-color: #31363f00;
     text-align: center;
-    color: #EEEEEE;
+    color: #555555;
   }
 
   .cardsection {
@@ -127,7 +128,7 @@ body {
 
   h2 {
     text-align: center;
-    color: #EEEEEE;
+    color: #555555;
     padding: 1em;
     margin: 0;
   }
@@ -141,4 +142,12 @@ body {
     text-align: center;
     color: #EEEEEE;
     text-transform: capitalize;
+  }
+
+  h3 {
+    font-weight: normal;
+  }
+
+  p {
+    font-weight: lighter;
   }
